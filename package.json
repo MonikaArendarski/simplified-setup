@@ -1,0 +1,14 @@
+{
+  "name": "simplified-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server"
+  },
+  "author": "Monika Arendarski <Monika.Arendarski@study.hs-duesseldorf.de>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
