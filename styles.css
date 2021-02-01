@@ -36,6 +36,7 @@ body {
  font-family: 'Montserrat', sans-serif;
 }
 header {
+ text-decoration: none;
  text-align: center;   
  box-sizing: border-box;
  width: 100%;
@@ -46,25 +47,21 @@ header {
  font-family: 'Montserrat', sans-serif;
  font-weight: 500;
  font-size: 20px;
- color: black;
- justify-content: flex-end;
+ color: var(--color-black);
+ justify-content: space-between;
  align-items: center;
 }
 li {
+ text-decoration: none;
  display: inline-flex;
  padding: 0px 20px; 
- color: black;  
 }
 li :hover{
- background-color: var(--color-white);
+ color: var(--color-red-shade-three);
+ transition: 0.3s;
 }
-button {
- padding: 9px 25px;
- background-color: var(--color-red-shade-one);
- border: none;
- border-radius: 50px;
-}
-button :hover {
- background-color: var(--color-red-shade-three);
+a{
+ color: var(--color-red-shade-one);
+ text-decoration: none;
 }
 
