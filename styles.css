@@ -32,11 +32,10 @@ body {
  height: 80px;
  font-size: 15px;
  display: inline;
- background-color: var(--color-beige-shade-two);
+ background-color: var(--color-beige-shade-three);
  font-family: 'Montserrat', sans-serif;
 }
 header {
- text-decoration: none;
  text-align: center;   
  box-sizing: border-box;
  width: 100%;
@@ -45,11 +44,20 @@ header {
  margin: 0 auto;
  background-color: var(--color-beige-shade-three);
  font-family: 'Montserrat', sans-serif;
- font-weight: 500;
  font-size: 20px;
  color: var(--color-black);
  justify-content: space-between;
  align-items: center;
+}
+header h1{
+ margin-left: var(--unit-s);
+ font-weight: bold;
+}
+main{
+ text-align: center;
+}
+nav{
+ margin-right: var(--unit-s);
 }
 li {
  text-decoration: none;
