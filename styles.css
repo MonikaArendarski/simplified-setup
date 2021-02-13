@@ -66,6 +66,7 @@ h1{
     border: none;
     border-radius: 50px;
     color: var(--color-white);
+    cursor: zoom-in;
    }
    button:hover{
     background-color: var(--color-red-shade-three);
@@ -92,8 +93,8 @@ main{
     font-size: var(--font-size-secondary);
    }
    .meine_arbeiten{
-   font-size: var(--font-size-primary);
-   font-weight: bold;
+    font-size: var(--font-size-primary);
+    font-weight: bold;
    }
    img{
     height: 500px;
@@ -114,6 +115,7 @@ main{
     width: var(--unit-m);
     height: var(--unit-m);
     display: inline-block;
+    cursor: zoom-in;
    }
    .instagram-icon:hover{
     transition: 0,3s;
@@ -128,6 +130,7 @@ main{
     width: var(--unit-m);
     height: var(--unit-m);
     display: inline-block;
+    cursor: zoom-in;
    }
    .facebook-icon:hover{
     transition: 0,3s;
@@ -142,6 +145,7 @@ main{
     width: var(--unit-m);
     height: var(--unit-m);
     display: inline-block;
+    cursor: zoom-in;
    }
    .twitter-icon:hover{
     transition: 0,3s;
